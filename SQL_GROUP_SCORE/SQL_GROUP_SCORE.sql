@@ -26,8 +26,8 @@ CREATE VIEW V_GROUP_GRADE AS
 				row_number() over(PARTITION BY m.GROUP_ID ORDER BY m.SCORE desc) AS row_desc
 				,row_number() over(PARTITION BY m.GROUP_ID ORDER BY m.SCORE asc) AS row_asc
 				,count(m.id) over(PARTITION BY g.GROUP_NAME) AS count_mem
-				FROM SYS.GROUPT g 
-				LEFT JOIN sys.MEMBERS m ON g.id = m.GROUP_ID 
+				FROM GROUPT g 
+				LEFT JOIN MEMBERS m ON g.id = m.GROUP_ID 
 				ORDER BY g.GROUP_NAME,m.SCORE DESC
 			) group_raw
 			GROUP BY group_raw.GROUP_NAME,group_raw.count_mem
