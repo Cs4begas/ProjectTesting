@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.31410.357
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AverageLongestOrderSequence", "AverageLongestOrderSequence\AverageLongestOrderSequence.csproj", "{1F0D623F-0389-44F7-BD65-2010869EFE8B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AverageLongestOrderSequenceTest", "AverageLongestOrderSequenceTest\AverageLongestOrderSequenceTest.csproj", "{D6047D84-938C-45A6-B0B3-BF58B9EAFA0F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AverageLongestOrderSequenceTest", "AverageLongestOrderSequenceTest\AverageLongestOrderSequenceTest.csproj", "{D6047D84-938C-45A6-B0B3-BF58B9EAFA0F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
